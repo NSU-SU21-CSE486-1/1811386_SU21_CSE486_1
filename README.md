@@ -14,9 +14,9 @@
 <p align="center"><strong>Course No</strong>: CSE 486 <strong>Sec</strong><strong>:</strong> 01</p>
 <p align="center"><strong>Faculty</strong>: Shaikh Shawon Arefin Shimon (SAS3)</p>
 <p align="center"><strong><u>Member 1</u></strong><u>:</u></p>
-<p align="center"><strong>Name</strong><strong>:</strong> ABC DEF</p>
-<p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1234567</p>
-<p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:abc.def@northsouth.edu">abc.def@northsouth.edu</a></p>
+<p align="center"><strong>Name</strong><strong>:</strong>Ahadul Islam</p>
+<p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1811386</p>
+<p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:ahadul.islam3@northsouth.edu">abc.def@northsouth.edu</a></p>
 
 <p align="center"><strong>Git Repository</strong><strong>: </strong><a href="https://github.com/NSU-SP21-CSE486-1/1234567-SP21-CSE486-S01">https://github.com/NSU-SP21-CSE486-1/1234567-SP21-CSE486-S01</a></p>
 
