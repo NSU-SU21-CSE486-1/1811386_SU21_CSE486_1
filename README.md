@@ -18,7 +18,7 @@
 <p align="center"><strong>ID</strong><strong>:&nbsp; </strong>1811386</p>
 <p align="center"><strong>Email</strong><strong>:</strong> <a href="mailto:ahadul.islam3@northsouth.edu">ahadul.islam3@northsouth.edu</a></p>
 
-<p align="center"><strong>Git Repository</strong><strong>: </strong><a href="https://github.com/NSU-SP21-CSE486-1/1234567-SP21-CSE486-S01">https://github.com/NSU-SP21-CSE486-1/1234567-SP21-CSE486-S01</a></p>
+<p align="center"><strong>Git Repository</strong><strong>: </strong><a href="https://github.com/NSU-SU21-CSE486-1/1811386_SU21_CSE486_1">https://github.com/NSU-SU21-CSE486-1/1811386_SU21_CSE486_1/a></p>
 
 <p align="center"><strong>Date Prepared</strong><strong>: </strong>March 03, 2021</p>
 <p><strong>&nbsp;</strong></p>
