@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    Tools:layout_editor_absoluteX="1dp"
+    Tools:layout_editor_absoluteY="1dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1E3D59"
+    android:fillViewport="true">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#CDDC39"
+        tools:context=".SIGNUP_PAGE">
+
+
+        <EditText
+            android:id="@+id/lasttime"
+            android:layout_width="127dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Last Name"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="251dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+        <EditText
+            android:id="@+id/firstname"
+            android:layout_width="127dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="First Name"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="42dp" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="127dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="phone Number"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="251dp"
+            tools:layout_editor_absoluteY="219dp" />
+
+        <EditText
+            android:id="@+id/blood_group"
+            android:layout_width="127dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Blood Group"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="219dp" />
+
+        <EditText
+            android:id="@+id/blood_group"
+            android:layout_width="127dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="email address"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="122dp" />
+
+        <EditText
+            android:id="@+id/phone_number"
+            android:layout_width="127dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="NID"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="251dp"
+            tools:layout_editor_absoluteY="122dp" />
+
+        <EditText
+            android:id="@+id/Student_ID"
+            android:layout_width="127dp"
+            android:layout_height="43dp"
+            android:backgroundTint="F5F0E1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Student ID"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <EditText
+            android:id="@+id/Birth_Date"
+            android:layout_width="127dp"
+            android:layout_height="43dp"
+            android:backgroundTint="F5F0E1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Birth date"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="506dp" />
+
+        <EditText
+            android:id="@+id/Department"
+            android:layout_width="127dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Department"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="251dp"
+            tools:layout_editor_absoluteY="408dp" />
+
+        <EditText
+            android:id="@+id/Currently_studing"
+            android:layout_width="127dp"
+            android:layout_height="43dp"
+            android:backgroundTint="F5F0E1"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Currently Studing"
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="251dp"
+            tools:layout_editor_absoluteY="321dp" />
+
+        <EditText
+            android:id="@+id/last_studied"
+            android:layout_width="127dp"
+            android:layout_height="43dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Last Studied "
+            android:textStyle="bold"
+            tools:layout_editor_absoluteX="25dp"
+            tools:layout_editor_absoluteY="321dp" />
+
+        <Button
+            android:id="@+id/done"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#FF6E40"
+            android:text="Done"
+            tools:layout_editor_absoluteX="171dp"
+            tools:layout_editor_absoluteY="621dp" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
