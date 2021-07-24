@@ -11,82 +11,102 @@
         android:id="@+id/uniclubz"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
         android:background="@android:color/holo_blue_dark"
         android:backgroundTint="#1E3D59"
-        android:text="UniClubz"
+        android:text="@string/uniclubz"
         android:textAlignment="center"
         android:textColor="@android:color/white"
-        android:textSize="80"
+        android:textSize="80sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="64dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/log_in"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Log In"
+        android:layout_marginTop="25dp"
+        android:text="@string/log_in"
         android:textAlignment="center"
-        android:textSize="40"
+        android:textSize="48sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="150dp"
-        tools:layout_editor_absoluteY="195dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/uniclubz" />
 
     <EditText
-        android:id="@+id/editTextTextPassword"
+        android:id="@+id/passwordfill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="19dp"
+        android:hint="@string/password1"
         android:ems="10"
         android:inputType="textPassword"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="493dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordlabel"
+        android:autofillHints="" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/usernamefill"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:ems="10"
+        android:layout_marginTop="25dp"
+        android:hint="@string/user_name"
         android:inputType="textPersonName"
-        tools:layout_editor_absoluteX="102dp"
-        tools:layout_editor_absoluteY="367dp" />
+        android:ems="10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/namelabel"
+        android:autofillHints="@string/user_name" />
 
     <TextView
-        android:id="@+id/name"
+        android:id="@+id/namelabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Name"
+        android:layout_marginTop="42dp"
+        android:text="@string/name"
         android:textAlignment="center"
-        android:textSize="30"
+        android:textSize="30sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="165dp"
-        tools:layout_editor_absoluteY="301dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/log_in" />
 
     <TextView
-        android:id="@+id/password"
+        android:id="@+id/passwordlabel"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Password"
+        android:layout_marginTop="22dp"
+        android:text="@string/password"
         android:textAlignment="center"
-        android:textSize="30"
+        android:textSize="30sp"
         android:textStyle="bold"
-        tools:layout_editor_absoluteX="138dp"
-        tools:layout_editor_absoluteY="434dp" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/usernamefill" />
 
     <Button
         android:id="@+id/signin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="88dp"
         android:backgroundTint="#FF6E40"
-        android:text="SignIn"
-        tools:layout_editor_absoluteX="245dp"
-        tools:layout_editor_absoluteY="594dp" />
+        android:text="@string/signin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordfill" />
 
     <Button
         android:id="@+id/singup"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
         android:backgroundTint="#FF6E40"
-        android:text="SignUP"
-        tools:layout_editor_absoluteX="80dp"
-        tools:layout_editor_absoluteY="591dp" />
+        android:text="@string/signup"
+        app:layout_constraintEnd_toStartOf="@+id/signin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/passwordfill" />
 </androidx.constraintlayout.widget.ConstraintLayout>

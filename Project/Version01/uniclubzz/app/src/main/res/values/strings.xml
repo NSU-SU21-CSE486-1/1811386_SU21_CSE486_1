@@ -1,3 +1,23 @@
 <resources>
     <string name="app_name">My Application</string>
+    <string name="done">Done</string>
+    <string name="last_studied">Last Studied</string>
+    <string name="currently_studing">Currently Studing</string>
+    <string name="department">Department</string>
+    <string name="birth_date">Birth date</string>
+    <string name="student_id">Student ID</string>
+    <string name="nid">NID</string>
+    <string name="email_address">email address</string>
+    <string name="blood_group">Blood Group</string>
+    <string name="phone_number">phone Number</string>
+    <string name="last_name">Last Name</string>
+    <string name="first_name">First Name</string>
+    <string name="log_in">Log In</string>
+    <string name="uniclubz">UniClubz</string>
+    <string name="name">Name</string>
+    <string name="password">Password</string>
+    <string name="signin">SignIn</string>
+    <string name="signup">SignUP</string>
+    <string name="user_name">User Name</string>
+    <string name="password1">password</string>
 </resources>
