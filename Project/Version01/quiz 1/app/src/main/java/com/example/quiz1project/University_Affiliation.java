@@ -4,6 +4,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
@@ -11,6 +13,7 @@ import android.widget.TextView;
 public class University_Affiliation extends AppCompatActivity {
   private  ArrayAdapter<CharSequence> adapater,child_adapater;
   private  Spinner University_spinner,department_spinner;
+  private String selectedDepartment,selectedUniversity;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -33,13 +36,9 @@ public class University_Affiliation extends AppCompatActivity {
         String message3 = intent.getStringExtra(MainActivity.EXTRA_BG);
         TextView textView3 = findViewById(R.id.display_bloodgroup);
         textView3.setText(message3);
+
+
     }
 
-    Spinner University_spinner =findViewById(R.id.spinner1);
-    ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this, R.array.array_uninersity, android.R.layout.simple_spinner_item);
-
-adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-
-University_spinner.setAdapter(adapter);
 
 }

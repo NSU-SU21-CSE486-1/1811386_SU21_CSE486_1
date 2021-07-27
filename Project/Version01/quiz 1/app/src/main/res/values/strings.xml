@@ -10,6 +10,10 @@
     <string name="show_date_of_birth">Date of Birth</string>
     <string name="show_nid">NID</string>
     <string name="show_blood_group">blood group</string>
+    <string name="student_id">Student ID</string>
+    <string name="study_level">Study Level</string>
+    <string name="next2">next2</string>
+
     <string-array name="array_uninersity">
         <item>Select University</item>
         <item>Brac</item>
@@ -24,4 +28,5 @@
         <item>School of Business and Economics</item>
         <item>School of Humanities and Social Sciences</item>
     </string-array>
+
 </resources>
