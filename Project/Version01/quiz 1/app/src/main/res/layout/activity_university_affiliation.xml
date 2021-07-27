@@ -12,7 +12,7 @@
         android:layout_height="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="128dp"
-        android:text="NID"
+        android:text="@string/show_nid"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -22,7 +22,7 @@
         android:layout_height="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="172dp"
-        android:text="blood group"
+        android:text="@string/show_blood_group"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -89,7 +89,7 @@
         android:layout_height="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="28dp"
-        android:text="NAME"
+        android:text="@string/show_name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -99,7 +99,31 @@
         android:layout_height="24dp"
         android:layout_marginStart="24dp"
         android:layout_marginTop="72dp"
-        android:text="Date of Birth "
+        android:text="@string/show_date_of_birth"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="21dp"
+        android:layout_marginBottom="419dp"
+        android:entries="@array/array_uninersity"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_header" />
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="375dp"
+        android:entries="@array/array_uninersity_department"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
