@@ -29,82 +29,12 @@
 
 Repository for all work in CSE486.1
 
-Folder Structure:
 
-1234567-SP21-CSE486-S01
+**INTRODUCTION**
 
-|-------- Lab
+This app allow university student of any university who are also members to be able to communitate with each other and be always informed of all the current event going on.
+**FEATURES*
+. Students can set up their information such as Name , Date of Birth, Blood group and NID 
+. Their University and DEpartment in Unversity is also added for full immersion
+. They also provide thier phone number and email
 
-              |------------- README.md
-
-              |------------- Lab01
-
-              |------------- Lab02
-
-              |------------- Lab03
-
-              |------------- Lab04
-
-              |------------- Lab05
-
-              |------------- Lab06
-
-              |------------- Lab07
-
-              |------------- Lab08
-
-              |------------- Lab09
-
-              |------------- Lab10
-
-              |------------- Lab11
-
-              |------------- Lab12
-
-              |------------- Lab13
-
-|-------- Practice
-
-              |------------- README.md
-
-              |------------- Practice001
-
-              |------------- Practice002
-
-|-------- Project
-
-              |------------- README.md
-
-              |------------- Version01
-
-              |------------- Version02
-
-              |------------- Version03
-
-              |------------- Version04
-
-              |------------- Version05
-
-|-------- Theory
-
-              |------------- README.md
-
-              |------------- Assignment
-
-                            |------------- Assignment01
-
-                            |------------- Assignment02
-
-                            |------------- Assignment03
-
-                            |------------- Assignment04
-
-              |------------- Quiz
-
-                            |------------- Quiz01
-
-                            |------------- Quiz02
-
-                            |------------- Quiz03
-
-                            |------------- Quiz04
