@@ -28,8 +28,13 @@
 --------------------------------------------------------------------------------------------
 
 Repository for all work in CSE486.1
+
+
 **INTRODUCTION**
+
 This app allow university student of any university who are also members to be able to communitate with each other and be always informed of all the current event going on.
 **FEATURES*
-. Any university student can sign up using an university email.
+. Students can set up their information such as Name , Date of Birth, Blood group and NID 
+. Their University and DEpartment in Unversity is also added for full immersion
+. They also provide thier phone number and email
 
