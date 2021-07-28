@@ -9,15 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name="com.example.quiz1project.University_Affiliation"
-            android:label = "University_Affiliation"
-            android:parentActivityName="com.example.quiz1project.MainActivity">
+        <activity android:name=".finalscreen"></activity>
+        <activity android:name=".fourthscreen" />
+        <activity
+            android:name=".laststop"
+            android:label="laststop"
+            android:parentActivityName=".University_Affiliation">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=
-                    "com.example.quiz1project.University_Affiliation" />
+                android:value="com.example.quiz1project.University_Affiliation" />
         </activity>
-        <activity android:name="com.example.quiz1project.MainActivity">
+        <activity
+            android:name=".University_Affiliation"
+            android:label="University_Affiliation"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.quiz1project.University_Affiliation" />
+        </activity>
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

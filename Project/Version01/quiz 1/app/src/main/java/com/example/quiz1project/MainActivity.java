@@ -10,16 +10,16 @@ import android.widget.EditText;
 
 public class MainActivity extends AppCompatActivity {
     public static final String EXTRA_NAME =
-            "com.example.University_Affiliation.extra.NAME";
+            "com.example.MainActivity.extra.NAME";
 
     public static final String EXTRA_DOB =
-            "com.example.University_Affiliation.extra.DOB";
+            "com.example.MainActivity.extra.DOB";
+
     public static final String EXTRA_NIDNUMBER =
-            "com.example.University_Affiliation.extra.NIDNUMBER";
+            "com.example.MainActivity.extra.NIDNUMBER";
 
     public static final String EXTRA_BG =
-            "com.example.University_Affiliation.extra.BG";
-
+            "com.example.MainActivity.extra.BG";
     private static final String LOG_TAG =
             MainActivity.class.getSimpleName();
     private EditText mMessageEditText;
@@ -40,6 +40,7 @@ public class MainActivity extends AppCompatActivity {
         Log.d(LOG_TAG, "Button clicked!");
 
     Intent intent = new Intent(this, University_Affiliation.class);
+
         String message = mMessageEditText.getText().toString();
         intent.putExtra(EXTRA_NAME, message);
         String message1 = messagedateofbirth.getText().toString();
@@ -49,5 +50,7 @@ public class MainActivity extends AppCompatActivity {
         String message3 = messagebg.getText().toString();
         intent.putExtra(EXTRA_BG, message3);
         startActivity(intent);
+
+
     }
 }

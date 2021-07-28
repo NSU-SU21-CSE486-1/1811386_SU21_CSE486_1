@@ -13,6 +13,7 @@
     <string name="student_id">Student ID</string>
     <string name="study_level">Study Level</string>
     <string name="next2">next2</string>
+    <string name="next3">Next</string>
 
     <string-array name="array_uninersity">
         <item>Select University</item>
