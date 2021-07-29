@@ -9,8 +9,23 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
-        <activity android:name=".finalscreen"></activity>
-        <activity android:name=".fourthscreen" />
+        <activity
+            android:name=".finalscreen"
+            android:label="finalscreen"
+            android:parentActivityName=".fourthscreen">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.quiz1project.University_Affiliation" />
+        </activity>
+        <activity
+            android:name=".fourthscreen"
+            android:label="fourthscreen"
+            android:parentActivityName=".laststop">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.quiz1project.laststop" />
+        </activity>
+
         <activity
             android:name=".laststop"
             android:label="laststop"

@@ -8,35 +8,40 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.Spinner;
+import android.widget.TextView;
 
 public class fourthscreen extends AppCompatActivity {
     public static final String EXTRA_Spinner1 =
-            "com.example.University_Affiliation.extra.Spinner1";
+            "com.example.fourthscreen.extra.Spinner1";
     public static final String EXTRA_Spinner2 =
-            "com.example.University_Affiliation.extra.Spinner2";
+            "com.example.fourthscreen.extra.Spinner2";
     public static final String EXTRA_StudentID =
-            "com.example.University_Affiliation.extra.StudentID";
+            "com.example.fourthscreen.extra.StudentID";
     public static final String EXTRA_Studentlevel =
-            "com.example.University_Affiliation.extra.Studentlevel";
+            "com.example.fourthscreen.extra.Studentlevel";
     public static final String EXTRA_NAME =
-            "com.example.University_Affiliation.NAME";
+            "com.example.fourthscreen.NAME";
     public static final String EXTRA_DOB =
-            "com.example.University_Affiliation.extra.DOB";
+            "com.example.fourthscreen.extra.DOB";
     public static final String EXTRA_NIDNUMBER =
-            "com.exampleUniversity_Affiliation.extra.NIDNUMBER";
+            "com.fourthscreen.extra.NIDNUMBER";
     public static final String EXTRA_BG =
-            "com.example.University_Affiliation.extra.BG";
-    public static final String EXTRA_EMAIL=
-            "com.example.forthscreen.extra.EMAIL";
-    public static final String EXTRA_PHONENUMBER=
-            "com.example.forthscreen.extra.PHONENUMBER";
-    private Spinner mMeassagespinner1;
-    private Spinner mMeassagespinner2;
-    private EditText mMeassagestudentid;
-    private EditText mMeassagestudentlevel;
+            "com.example.fourthscreen.extra.BG";
+    public static final String EXTRA_EMAIL =
+            "com.example.fourthscreen.extra.EMAIL";
+    public static final String EXTRA_PHONENUMBER =
+            "com.example.fourthscreen.extra.PHONENUMBER";
     private EditText messageemail;
     private EditText massagephonenumber;
-    private String message, message1 ,message2, message3,message4,message5,message6,message7,message8,message9;
+    private String message;
+    private String message1;
+    private String message2;
+    private String message3;
+    private String message4;
+    private String message5;
+    private String message6;
+    private String message7;
+    private String message8;
     private static final String LOG_TAG =
             fourthscreen.class.getSimpleName();
 
@@ -44,8 +49,35 @@ public class fourthscreen extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_fourthscreen);    messageemail= findViewById(R.id.email);
+        setContentView(R.layout.activity_fourthscreen);
+
+        messageemail = findViewById(R.id.email);
         massagephonenumber = findViewById(R.id.phonenumber);
+
+        Intent intent = getIntent();
+         message = intent.getStringExtra(laststop.EXTRA_NAME);
+
+         message1 = intent.getStringExtra(laststop.EXTRA_DOB);
+
+         message2 = intent.getStringExtra(laststop.EXTRA_NIDNUMBER);
+
+         message3 = intent.getStringExtra(laststop.EXTRA_BG);
+
+
+         message4 = intent.getStringExtra(laststop.EXTRA_Spinner1);
+
+
+         message5 = intent.getStringExtra(laststop.EXTRA_Spinner2);
+
+
+         message6 = intent.getStringExtra(laststop.EXTRA_StudentID);
+
+
+         message7 = intent.getStringExtra(laststop.EXTRA_Studentlevel);
+
+
+
+
     }
 
     public void launchfinalscreen(View view) {
@@ -53,19 +85,18 @@ public class fourthscreen extends AppCompatActivity {
 
         Intent intent = new Intent(this, finalscreen.class);
 
-        intent.putExtra(EXTRA_NAME,message);
-        intent.putExtra(EXTRA_DOB,message1);
-        intent.putExtra(EXTRA_NIDNUMBER,message2);
-        intent.putExtra(EXTRA_BG,message3);
+        intent.putExtra(EXTRA_NAME, message);
+        intent.putExtra(EXTRA_DOB, message1);
+        intent.putExtra(EXTRA_NIDNUMBER, message2);
+        intent.putExtra(EXTRA_BG, message3);
         intent.putExtra(EXTRA_Spinner1, message4);
         intent.putExtra(EXTRA_Spinner2, message5);
         intent.putExtra(EXTRA_StudentID, message6);
         intent.putExtra(EXTRA_Studentlevel, message7);
 
-        String message6 = messageemail.getText().toString();
+        message8 = messageemail.getText().toString();
         intent.putExtra(EXTRA_EMAIL, message8);
-
-        String message7 = massagephonenumber.getText().toString();
+        String message9 = massagephonenumber.getText().toString();
         intent.putExtra(EXTRA_PHONENUMBER, message9);
 
         startActivity(intent);

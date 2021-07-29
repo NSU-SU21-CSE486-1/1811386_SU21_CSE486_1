@@ -26,6 +26,7 @@ public class MainActivity extends AppCompatActivity {
     private EditText messagedateofbirth;
     private EditText messageNIDNUMBER;
     private EditText messagebg;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
     public void launchUniversity_Affiliation(View view) {
         Log.d(LOG_TAG, "Button clicked!");
 
-    Intent intent = new Intent(this, University_Affiliation.class);
+        Intent intent = new Intent(this, University_Affiliation.class);
 
         String message = mMessageEditText.getText().toString();
         intent.putExtra(EXTRA_NAME, message);
