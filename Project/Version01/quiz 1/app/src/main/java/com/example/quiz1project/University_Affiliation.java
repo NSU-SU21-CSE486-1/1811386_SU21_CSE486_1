@@ -30,11 +30,16 @@ public class University_Affiliation extends AppCompatActivity {
 
     public static final String EXTRA_BG =
             "com.example.University_Affiliation.extra.BG";
+    public static final String EXTRA_EMAIL =
+            "com.example.University_Affiliation.extra.EMAIL";
+    public static final String EXTRA_PHONENUMBER =
+            "com.example.University_Affiliation.extra.PHONENUMBER";
     private Spinner mMeassagespinner1;
     private Spinner mMeassagespinner2;
     private EditText mMeassagestudentid;
     private EditText mMeassagestudentlevel;
-
+    private EditText messageemail;
+    private EditText massagephonenumber;
     private String message, message1, message2, message3;
     private static final String LOG_TAG =
             University_Affiliation.class.getSimpleName();
@@ -47,7 +52,8 @@ public class University_Affiliation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_university_affiliation);
 
-
+        messageemail = findViewById(R.id.email);
+        massagephonenumber = findViewById(R.id.phonenumber);
         mMeassagespinner1 = findViewById(R.id.spinner1);
         mMeassagespinner2 = findViewById(R.id.spinner2);
         mMeassagestudentid = findViewById(R.id.StudentID);
@@ -69,7 +75,7 @@ public class University_Affiliation extends AppCompatActivity {
         textView2.setText(message2);
 
         message3 = intent.getStringExtra(MainActivity.EXTRA_BG);
-        TextView textView3 = findViewById(R.id.display_bloodgroup1);
+        TextView textView3 = findViewById(R.id.display_bloodgroup);
         textView3.setText(message3);
 
 
@@ -91,6 +97,10 @@ public class University_Affiliation extends AppCompatActivity {
         intent.putExtra(EXTRA_StudentID, message6);
         String message7 = mMeassagestudentlevel.getText().toString();
         intent.putExtra(EXTRA_Studentlevel, message7);
+        String message8 = messageemail.getText().toString();
+        intent.putExtra(EXTRA_EMAIL, message8);
+        String message9 = massagephonenumber.getText().toString();
+        intent.putExtra(EXTRA_PHONENUMBER, message9);
         startActivity(intent);
     }
 

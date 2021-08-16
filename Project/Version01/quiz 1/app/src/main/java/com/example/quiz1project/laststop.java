@@ -7,7 +7,6 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
-import android.widget.Spinner;
 import android.widget.TextView;
 
 public class laststop extends AppCompatActivity {
@@ -30,16 +29,22 @@ public class laststop extends AppCompatActivity {
 
     public static final String EXTRA_BG =
             "com.example.University_Affiliation.extra.BG";
-
+    public static final String EXTRA_EMAIL =
+            "com.example.fourthscreen.extra.EMAIL";
+    public static final String EXTRA_PHONENUMBER =
+            "com.example.fourthscreen.extra.PHONENUMBER";
+    private EditText messageemail;
+    private EditText massagephonenumber;
     private static final String LOG_TAG =
             University_Affiliation.class.getSimpleName();
-private String message,message1,message2,message3,message4,message5,message6,message7;
+private String message,message1,message2,message3,message4,message5,message6,message7,message8 , message9;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
 
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_laststop);
-
+        messageemail = findViewById(R.id.email);
+        massagephonenumber = findViewById(R.id.phonenumber);
         Intent intent = getIntent();
 
         String message = intent.getStringExtra(University_Affiliation.EXTRA_NAME);
@@ -55,7 +60,7 @@ private String message,message1,message2,message3,message4,message5,message6,mes
         textView2.setText(message2);
 
         String message3 = intent.getStringExtra(University_Affiliation.EXTRA_BG);
-        TextView textView3 = findViewById(R.id.display_bloodgroup1);
+        TextView textView3 = findViewById(R.id.display_bloodgroup);
         textView3.setText(message3);
 
         String message4 = intent.getStringExtra(University_Affiliation.EXTRA_Spinner1);
@@ -74,11 +79,18 @@ private String message,message1,message2,message3,message4,message5,message6,mes
         TextView textView7 = findViewById(R.id.display_studnet_level);
         textView7.setText(message7);
 
+        message8 = intent.getStringExtra(University_Affiliation.EXTRA_EMAIL);
+        TextView textView8 = findViewById(R.id.displayemail);
+        textView8.setText(message8);
+
+        message9 = intent.getStringExtra(University_Affiliation.EXTRA_PHONENUMBER);
+        TextView textView9 = findViewById(R.id.displayphonenumber);
+        textView9.setText(message9);
     }
 
     public void launchfourthscreen(View view) {
         Log.d(LOG_TAG, "Button clicked!");
-        Intent intent = new Intent(this, fourthscreen.class);
+        Intent intent = new Intent(this, finalscreen.class);
         intent.putExtra(EXTRA_NAME, message);
         intent.putExtra(EXTRA_DOB, message1);
         intent.putExtra(EXTRA_NIDNUMBER, message2);
@@ -87,6 +99,7 @@ private String message,message1,message2,message3,message4,message5,message6,mes
         intent.putExtra(EXTRA_Spinner2, message5);
         intent.putExtra(EXTRA_StudentID, message6);
         intent.putExtra(EXTRA_Studentlevel, message7);
+
         startActivity(intent);
     }
 }

@@ -20,8 +20,10 @@ public class MainActivity extends AppCompatActivity {
 
     public static final String EXTRA_BG =
             "com.example.MainActivity.extra.BG";
+
     private static final String LOG_TAG =
             MainActivity.class.getSimpleName();
+
     private EditText mMessageEditText;
     private EditText messagedateofbirth;
     private EditText messageNIDNUMBER;
@@ -31,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        
         mMessageEditText = findViewById(R.id.name);
         messagedateofbirth = findViewById(R.id.dataofbirth);
         messageNIDNUMBER = findViewById(R.id.NID);

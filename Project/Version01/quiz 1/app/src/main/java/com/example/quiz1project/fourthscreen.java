@@ -73,7 +73,9 @@ public class fourthscreen extends AppCompatActivity {
          message6 = intent.getStringExtra(laststop.EXTRA_StudentID);
 
 
-         message7 = intent.getStringExtra(laststop.EXTRA_Studentlevel);
+        String message7 = intent.getStringExtra(University_Affiliation.EXTRA_Studentlevel);
+        TextView textView7 = findViewById(R.id.display_studnet_level);
+        textView7.setText(message7);
 
 
 
