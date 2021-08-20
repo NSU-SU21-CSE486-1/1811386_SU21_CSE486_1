@@ -3,14 +3,22 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/activity_dialogbox.xml" value="0.18885869565217392" />
         <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/activity_main2.xml" value="0.18034447821681865" />
+        <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/activity_recycleview.xml" value="0.36666666666666664" />
         <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/activity_vpadapter.xml" value="0.35260416666666666" />
+        <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/datafragment.xml" value="0.36666666666666664" />
+        <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/fagment3_2.xml" value="0.36666666666666664" />
         <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/fargment1.xml" value="0.36666666666666664" />
-        <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/fragment2.xml" value="0.1" />
+        <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/fragment2.xml" value="0.36666666666666664" />
         <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/fragment2_1.xml" value="0.1" />
-        <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/fragment2_2.xml" value="0.36666666666666664" />
+        <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/fragment2_2.xml" value="0.209375" />
         <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/fragment3.xml" value="0.36666666666666664" />
+        <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/fragment3_1.xml" value="0.1" />
         <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/fragment_fragment2_1.xml" value="0.1" />
+        <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/fragment_fragment3_1.xml" value="0.36666666666666664" />
+        <entry key="..\:/1811386_SU21_CSE486_1/Project/Version02/quiz2/app/src/main/res/layout/singleview.xml" value="0.36666666666666664" />
       </map>
     </option>
   </component>
@@ -19,5 +27,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1" />
+      </ProjectState>
+    </option>
   </component>
 </project>

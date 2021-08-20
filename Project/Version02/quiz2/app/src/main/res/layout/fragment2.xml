@@ -1,10 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/wrapper"
+    android:fillViewport="true">
+
+
+<FrameLayout
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/wrapper1"
     tools:context=".fragment2">
 
     <Spinner
@@ -47,14 +55,22 @@
         android:hint="@string/study_level"
         android:inputType="textPersonName"
         android:minHeight="48dp" />
-
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="250dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textPersonName" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/addfab"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="350dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="900dp"
         android:clickable="true"
         android:onClick="onClick"
         android:src="@android:drawable/ic_input_add"
@@ -64,3 +80,4 @@
 </FrameLayout>
 
 
+</ScrollView>

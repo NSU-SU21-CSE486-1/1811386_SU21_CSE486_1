@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="98abced8-f2d4-4f7a-b0c0-5593db2cc81e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/recycleview/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/app/src/main/java/com/example/myapplication/data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/app/src/main/java/com/example/myapplication/datafragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/app/src/main/java/com/example/myapplication/over.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/app/src/main/java/com/example/myapplication/singleview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/app/src/main/java/com/example/myapplication/viewadapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/app/src/main/res/layout/activity_over.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/app/src/main/res/layout/activity_singleview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/app/src/main/res/layout/datafragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview/app/src/main/res/layout/singleview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/app/src/main/java/com/example/recycleview_withbutton/data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/app/src/main/java/com/example/recycleview_withbutton/datafragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/app/src/main/java/com/example/recycleview_withbutton/recview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/app/src/main/java/com/example/recycleview_withbutton/singleview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/app/src/main/java/com/example/recycleview_withbutton/viewadapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/app/src/main/res/layout/activity_recview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/app/src/main/res/layout/datafragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/recycleview_withbutton/app/src/main/res/layout/singleview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice002/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice002/.idea/Practice002.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice002/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice002/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Practice002/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/java/com/example/myapplication/Main2Activity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/java/com/example/myapplication/Model.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/java/com/example/myapplication/myadapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/java/com/example/myapplication/myviewholder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/java/com/example/myapplication/singlerow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/drawable/angular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/drawable/cp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/drawable/cpp.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/drawable/dotnet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/drawable/java.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/drawable/magento.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/drawable/nodejs.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/drawable/php.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/drawable/python.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/drawable/shopify.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/drawable/wordpress.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/onclickview/app/src/main/res/layout/singlerow.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/serailzation/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/serailzation/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/serailzation/app/src/main/java/com/example/myapplication/MainActivity2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../practice003/serailzation/app/src/main/res/layout/activity_main2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/.idea/deploymentTargetDropDown.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/data.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/datafragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/dialogbox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/fragment3_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/fragment3_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/recycleview.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/activity_dialogbox.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/activity_recycleview.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/datafragment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/fragment3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/fragment3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/singleview.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/VPadapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/VPadapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/fragment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/fragment2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/fragment2_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/fragment2_2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/fragmentPagerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/viewadapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/fragment1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/fragment1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/fragment2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/fragment2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/fragment2_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/fragment2_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/fragment2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/fragment2_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/fragment3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Project/Version02/quiz2/app/src/main/res/layout/fragment3.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="1x0Fa9CZXB0Vnm7TYGE7HmeZQ2T" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="98abced8-f2d4-4f7a-b0c0-5593db2cc81e" name="Default Changelist" comment="" />
+      <created>1629484159506</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1629484159506</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,12 +1,9 @@
 package com.example.quiz2_uniclubz;
 
 import androidx.annotation.NonNull;
-import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
-
-import java.util.ArrayList;
 
 public class VPadapter extends FragmentPagerAdapter{
 int tabcount;

@@ -8,11 +8,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link fragment2_2#newInstance} factory method to
- * create an instance of this fragment.
- */
+
 public class fragment2_2 extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
@@ -34,7 +30,7 @@ public class fragment2_2 extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment fragment2_2.
+     * @return A new instance of fragment ftab1.
      */
     // TODO: Rename and change types and number of parameters
     public static fragment2_2 newInstance(String param1, String param2) {
@@ -58,7 +54,7 @@ public class fragment2_2 extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
+
         return inflater.inflate(R.layout.fragment2_2, container, false);
     }
 }
