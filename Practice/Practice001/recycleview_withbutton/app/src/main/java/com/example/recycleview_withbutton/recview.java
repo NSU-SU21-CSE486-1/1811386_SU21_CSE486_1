@@ -19,8 +19,11 @@ public class recview extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_recview);
+
         Intent intent = getIntent();
         setTitle("Recycler and Card View Demo");
+
+
         rcv = (RecyclerView) findViewById(R.id.recview);
         adapter = new myadapter(dataqueue(),getApplicationContext());
         rcv.setAdapter(adapter);
@@ -28,22 +31,21 @@ public class recview extends AppCompatActivity {
         rcv.setLayoutManager(gridLayoutManager);
 
     }
-    public ArrayList<Model> dataqueue()
+   public ArrayList<Model> dataqueue()
     {
         ArrayList<Model> holder=new ArrayList<>();
 
-        Model ob1=new Model();
+    Model ob1=new Model();
         ob1.setHeader("C Programming");
         ob1.setDesc("Desktop Programming");
         holder.add(ob1);
 
-        Model ob2=new Model();
+    Model ob2=new Model();
         ob2.setHeader("C++ Programming");
         ob2.setDesc("Desktop Progamming Language");
-        //ob2.setImgname(R.drawable.cpp);
         holder.add(ob2);
 
-        return holder;
+       return holder;
 }
 
 }
