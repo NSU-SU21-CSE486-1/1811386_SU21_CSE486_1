@@ -13,61 +13,7 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86ca5e41-a3b0-4623-a6ef-10a38232800c" name="Default Changelist" comment="trying to commit and push through android studio">
-      <change beforePath="$PROJECT_DIR$/../../../../Lab/Lab06/labclasswork/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Lab/Lab06/labclasswork/app/src/main/java/com/example/myapplication/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Lab/Lab06/labclasswork/app/src/main/java/com/example/myapplication/MainActivity2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Lab/Lab06/labclasswork/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Lab/Lab06/labclasswork/app/src/main/res/layout/activity_main2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/parcelacle/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/parcelacle/app/src/main/java/com/example/sendparcel/Employes.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/parcelacle/app/src/main/java/com/example/sendparcel/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/parcelacle/app/src/main/java/com/example/sendparcel/MainActivity2.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/parcelacle/app/src/main/res/layout/activity_main2.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/recyclervisioncodelab2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/recyclervisioncodelab2/app/src/main/AndroidManifest.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/recyclervisioncodelab2/app/src/main/java/com/example/recyclervisioncodelab2/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/recyclervisioncodelab2/app/src/main/java/com/example/recyclervisioncodelab2/WordlistAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/recyclervisioncodelab2/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/recycleview/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/recycleview_withbutton/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/recycleview_withbutton/app/src/main/java/com/example/recycleview_withbutton/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice001/recycleview_withbutton/app/src/main/java/com/example/recycleview_withbutton/recview.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/Practice002/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/java/com/example/roomwordssapmles/FirstFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/java/com/example/roomwordssapmles/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/java/com/example/roomwordssapmles/NewWordActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/java/com/example/roomwordssapmles/SecondFragment.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/java/com/example/roomwordssapmles/Word.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/java/com/example/roomwordssapmles/WordDao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/java/com/example/roomwordssapmles/WordListAdapter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/java/com/example/roomwordssapmles/WordRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/java/com/example/roomwordssapmles/WordRoomDatabase.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/java/com/example/roomwordssapmles/WordViewModel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/res/layout/activity_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/res/layout/activity_new_word.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/res/layout/content_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/res/layout/fragment_first.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/res/layout/fragment_second.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/res/menu/menu_main.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/res/values-night/themes.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/app/src/main/res/values/strings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/RoomWordsSapmles/build.gradle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/practice003/onclickview/.idea/gradle.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/recycleview_withbutton/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/recycleview_withbutton/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/recycleview_withbutton/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/recycleview_withbutton/app/src/main/java/com/example/recycleview_withbutton/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Practice/recycleview_withbutton/app/src/main/java/com/example/recycleview_withbutton/recview.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../Project/Version01/quiz 1/app/src/main/java/com/example/quiz1project/University_Affiliation.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Quiz02/quiz2/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Quiz02/quiz2/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Quiz02/quiz2/app/src/main/java/com/example/quiz2_uniclubz/MainActivity.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Quiz02/quiz2/app/src/main/res/layout/singleview.xml" beforeDir="false" />
-    </list>
+    <list default="true" id="86ca5e41-a3b0-4623-a6ef-10a38232800c" name="Default Changelist" comment="trying to commit and push through android studio" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -127,7 +73,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Quiz02/quiz2" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">

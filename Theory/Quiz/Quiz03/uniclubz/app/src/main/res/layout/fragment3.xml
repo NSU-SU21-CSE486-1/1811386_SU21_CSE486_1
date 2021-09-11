@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:fillViewport="true">
+
+
+    <FrameLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".fragment3"
+        android:id="@+id/wrapper3">
+
+        <EditText
+            android:id="@+id/phonenumber"
+            android:layout_width="163dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:hint="phonenumber"
+            android:inputType="textPersonName" />
+
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="227dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="50dp"
+            android:ems="10"
+            android:hint="Home/office/Other/Custom"
+            android:inputType="textPersonName" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/floatingActionButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:clickable="true"
+            android:layout_marginStart="350dp"
+            android:layout_marginTop="100dp"
+            android:onClick="addnumber"
+            android:src="@android:drawable/ic_input_add" />
+
+        <Button
+            android:id="@+id/submitt_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="100dp"
+            android:onClick="onClick3submitform"
+            android:text="Submit" />
+
+    </FrameLayout>
+</ScrollView>

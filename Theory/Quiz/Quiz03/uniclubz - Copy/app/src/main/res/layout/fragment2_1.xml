@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/calledfragment"
+    tools:context=".fragment2_1">
+
+    <Spinner
+        android:id="@+id/spinner1_1"
+        android:layout_width="match_parent"
+        android:layout_height="22dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="300dp"
+        android:layout_marginBottom="419dp"
+        android:entries="@array/array_uninersity" />
+
+    <Spinner
+        android:id="@+id/spinner2_1"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginBottom="375dp"
+        android:entries="@array/array_uninersity_department" />
+
+    <EditText
+        android:id="@+id/StudentID1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/student_id"
+        android:inputType="textPersonName"
+        android:layout_marginTop="400dp"
+        android:layout_marginStart="120dp"
+        />
+
+    <EditText
+        android:id="@+id/StudentLevel1_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="450dp"
+        android:ems="10"
+        android:hint="@string/study_level"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="450dp"
+        android:clickable="true"
+        android:onClick="onClick2"
+        android:src="@android:drawable/ic_input_add" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="500dp"
+        android:ems="10"
+        android:hint="email"
+        android:inputType="textPersonName" />
+</FrameLayout>
