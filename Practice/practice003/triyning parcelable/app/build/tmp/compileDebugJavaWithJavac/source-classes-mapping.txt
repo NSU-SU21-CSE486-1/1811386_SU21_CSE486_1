@@ -1,0 +1,14 @@
+com/example/myapplication/recyclevi.java
+ com.example.myapplication.recyclevi
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/Model.java
+ com.example.myapplication.Model
+com/example/myapplication/MainActivity.java
+ com.example.myapplication.MainActivity
+com/example/myapplication/WordlistAdapter.java
+ com.example.myapplication.WordlistAdapter
+ com.example.myapplication.WordlistAdapter$1
+ com.example.myapplication.WordlistAdapter$WordViewHolder
+com/example/myapplication/afterclick.java
+ com.example.myapplication.afterclick

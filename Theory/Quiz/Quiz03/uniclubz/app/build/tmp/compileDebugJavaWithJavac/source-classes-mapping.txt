@@ -1,0 +1,48 @@
+com/example/quiz3uniclubz/ModelDatabase.java
+ com.example.quiz3uniclubz.ModelDatabase
+ com.example.quiz3uniclubz.ModelDatabase$1
+ com.example.quiz3uniclubz.ModelDatabase$PopulateDbAsyncTask
+com/example/quiz3uniclubz/fragment1.java
+ com.example.quiz3uniclubz.fragment1
+com/example/quiz3uniclubz/Model.java
+ com.example.quiz3uniclubz.Model
+ com.example.quiz3uniclubz.Model$1
+com/example/quiz3uniclubz/MainActivity.java
+ com.example.quiz3uniclubz.MainActivity
+ com.example.quiz3uniclubz.MainActivity$1
+com/example/quiz3uniclubz/fragment3_2.java
+ com.example.quiz3uniclubz.fragment3_2
+com/example/quiz3uniclubz/BuildConfig.java
+ com.example.quiz3uniclubz.BuildConfig
+com/example/quiz3uniclubz/fragment2_2.java
+ com.example.quiz3uniclubz.fragment2_2
+com/example/quiz3uniclubz/ViewModel.java
+ com.example.quiz3uniclubz.ViewModel
+com/example/quiz3uniclubz/ModelRepository.java
+ com.example.quiz3uniclubz.ModelRepository
+ com.example.quiz3uniclubz.ModelRepository$1
+ com.example.quiz3uniclubz.ModelRepository$DeleteAllModelAsyncTask
+ com.example.quiz3uniclubz.ModelRepository$DeleteModelAsyncTask
+ com.example.quiz3uniclubz.ModelRepository$InsertModelAsyncTask
+ com.example.quiz3uniclubz.ModelRepository$UpdateModelAsyncTask
+com/example/quiz3uniclubz/VPadapter.java
+ com.example.quiz3uniclubz.VPadapter
+com/example/quiz3uniclubz/fragment2.java
+ com.example.quiz3uniclubz.fragment2
+com/example/quiz3uniclubz/fragment3_1.java
+ com.example.quiz3uniclubz.fragment3_1
+com/example/quiz3uniclubz/fragment2_1.java
+ com.example.quiz3uniclubz.fragment2_1
+com/example/quiz3uniclubz/Recyclevi2.java
+ com.example.quiz3uniclubz.Recyclevi2
+ com.example.quiz3uniclubz.Recyclevi2$1
+com/example/quiz3uniclubz/fragment3.java
+ com.example.quiz3uniclubz.fragment3
+com/example/quiz3uniclubz/afterclick.java
+ com.example.quiz3uniclubz.afterclick
+com/example/quiz3uniclubz/WordListAdapter.java
+ com.example.quiz3uniclubz.WordListAdapter
+ com.example.quiz3uniclubz.WordListAdapter$1
+ com.example.quiz3uniclubz.WordListAdapter$WordViewHolder
+com/example/quiz3uniclubz/ModelDao.java
+ com.example.quiz3uniclubz.ModelDao

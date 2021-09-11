@@ -1,0 +1,22 @@
+com/example/myapplication/NoteDatabase.java
+ com.example.myapplication.NoteDatabase
+ com.example.myapplication.NoteDatabase$1
+ com.example.myapplication.NoteDatabase$PopulateDbAsyncTask
+com/example/myapplication/NoteDao.java
+ com.example.myapplication.NoteDao
+com/example/myapplication/BuildConfig.java
+ com.example.myapplication.BuildConfig
+com/example/myapplication/Note.java
+ com.example.myapplication.Note
+com/example/myapplication/MainActivity.java
+ com.example.myapplication.MainActivity
+ com.example.myapplication.MainActivity$1
+com/example/myapplication/NoteRepository.java
+ com.example.myapplication.NoteRepository
+ com.example.myapplication.NoteRepository$1
+ com.example.myapplication.NoteRepository$DeleteAllNotesAsyncTask
+ com.example.myapplication.NoteRepository$DeleteNoteAsyncTask
+ com.example.myapplication.NoteRepository$InsertNoteAsyncTask
+ com.example.myapplication.NoteRepository$UpdateNoteAsyncTask
+com/example/myapplication/NoteViewModel.java
+ com.example.myapplication.NoteViewModel
