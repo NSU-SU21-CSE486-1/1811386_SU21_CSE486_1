@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".clubdashroom"
+            android:exported="true" />
+        <activity
+            android:name=".clubcreation"
+            android:exported="true" />
+        <activity
             android:name=".phonenumber"
             android:exported="true" />
         <activity
