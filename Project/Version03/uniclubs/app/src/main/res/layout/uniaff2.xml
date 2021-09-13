@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Uniaff2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp"
+        android:layout_marginStart="10dp"
+        android:entries="@array/array_uninersity"
+        android:minHeight="48dp" />
+
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="550dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginStart="10dp"
+        android:entries="@array/array_uninersity_department"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/StudentID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="600dp"
+        android:layout_marginStart="10dp"
+        android:hint="Student_Id"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="650dp"
+        android:ems="10"
+        android:hint="Student Level"
+        android:inputType="textPersonName"
+        android:minHeight="48dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="700dp"
+        android:layout_marginStart="10dp"
+        android:ems="10"
+
+        android:hint="email"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:layout_marginTop="700dp"
+        android:layout_marginStart="300dp"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+</FrameLayout>
+

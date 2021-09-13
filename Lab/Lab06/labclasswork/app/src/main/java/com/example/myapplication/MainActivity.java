@@ -40,15 +40,18 @@ public class MainActivity extends AppCompatActivity {
         mColor = ContextCompat.getColor(this,
                 R.color.black);
 
-        mPreferences = getSharedPreferences(sharedPrefFile, MODE_PRIVATE);
 
-        // Restore preferences
-        mCount = mPreferences.getInt(COUNT_KEY, 0);
-        mShowCountTextView.setText(String.format("%s", mCount));
-        mColor = mPreferences.getInt(COLOR_KEY, mColor);
-        mShowCountTextView.setBackgroundColor(mColor);
     }
 
+    public void savedata() {
+        mPreferences = getSharedPreferences(sharedPrefFile, MODE_PRIVATE);
+        SharedPreferences.Editor preferencesEditor = mPreferences.edit();
+        preferencesEditor.putInt(COUNT_KEY, mCount);
+        preferencesEditor.putInt(COLOR_KEY, mColor);
+        preferencesEditor.apply();
+        loaddata();
+        uploadviews();
+    }
 
     public void changeBackground(View view) {
         int color = ((ColorDrawable) view.getBackground()).getColor();
@@ -79,19 +82,20 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
-    @Override
-    protected void onPause() {
-        super.onPause();
+    public void loaddata() {
+        mCount = mPreferences.getInt(COUNT_KEY, 0);
 
-        SharedPreferences.Editor preferencesEditor = mPreferences.edit();
-        preferencesEditor.putInt(COUNT_KEY, mCount);
-        preferencesEditor.putInt(COLOR_KEY, mColor);
-        preferencesEditor.apply();
+        mColor = mPreferences.getInt(COLOR_KEY, mColor);
+
     }
 
+    public void uploadviews() {
+        mShowCountTextView.setText(String.format("%s", mCount));
+        mShowCountTextView.setBackgroundColor(mColor);
+    }
 
-    public void gothere(View view){
-        Intent intent= new Intent(this,MainActivity2.class);
+    public void gothere(View view) {
+        Intent intent = new Intent(this, MainActivity2.class);
         startActivity(intent);
     }
 }

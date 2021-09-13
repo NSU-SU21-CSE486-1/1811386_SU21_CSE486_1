@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string-array name="array_uninersity">
+        <item>Select University</item>
+        <item>Brac</item>
+        <item>North South University</item>
+        <item>Independent University, Bangladesh</item>
+        <item>American International University-Bangladesh</item>
+    </string-array>
+
+    <string-array name="array_uninersity_department">
+        <item>Selcet Department</item>
+        <item>School of Engineering and Physical Sciences</item>
+        <item>School of Health and Life Sciences</item>
+        <item>School of Business and Economics</item>
+        <item>School of Humanities and Social Sciences</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -13,7 +13,11 @@
     <option name="autoReloadType" value="NONE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="86ca5e41-a3b0-4623-a6ef-10a38232800c" name="Default Changelist" comment="trying to commit and push through android studio" />
+    <list default="true" id="86ca5e41-a3b0-4623-a6ef-10a38232800c" name="Default Changelist" comment="trying to commit and push through android studio">
+      <change beforePath="$PROJECT_DIR$/../../../../Practice/practice003/triyning parcelable/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../Practice/practice003/triyning parcelable/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uniclubz.rar" beforeDir="false" afterPath="$PROJECT_DIR$/../uniclubz.rar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +77,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Quiz02/quiz2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.migrate.to.gradle.popup" value="false" />
   </component>
   <component name="RecentsManager">
