@@ -14,7 +14,7 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="Home or Office"
-        android:hintTextColor="#757575"
+
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName9"
@@ -40,7 +40,7 @@
         android:autofillHints=""
         android:ems="10"
         android:hint="Home or Office"
-        android:hintTextColor="#757575"
+
         android:inputType="textPersonName"
         android:minHeight="48dp"
         app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName5"
@@ -114,14 +114,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Submit"
+        android:onClick="gotoformsubmit"
         tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="590dp" />
+        tools:layout_editor_absoluteY="590dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-    <Button
-        android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button"
-        tools:layout_editor_absoluteX="162dp"
-        tools:layout_editor_absoluteY="595dp" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

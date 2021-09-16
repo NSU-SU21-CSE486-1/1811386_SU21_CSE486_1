@@ -34,10 +34,10 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         
-        mMessageEditText = findViewById(R.id.name);
+        mMessageEditText   = findViewById(R.id.name);
         messagedateofbirth = findViewById(R.id.dataofbirth);
-        messageNIDNUMBER = findViewById(R.id.NID);
-        messagebg = findViewById(R.id.bloodgroup);
+        messageNIDNUMBER   = findViewById(R.id.NID);
+        messagebg          = findViewById(R.id.bloodgroup);
     }
 
     public void launchUniversity_Affiliation(View view) {

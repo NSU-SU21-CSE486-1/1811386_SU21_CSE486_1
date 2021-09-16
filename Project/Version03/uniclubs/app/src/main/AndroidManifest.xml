@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".display_phonenumber"
+            android:exported="true" />
+        <activity
+            android:name=".displayUA"
+            android:exported="true" />
+        <activity
+            android:name=".formsubmitted"
+            android:exported="true" />
+        <activity
             android:name=".clubdashroom"
             android:exported="true" />
         <activity

@@ -8,7 +8,7 @@
     android:fillViewport="true">
 
     <FrameLayout
-
+        android:id="@+id/wrapper1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         tools:context=".UniversityAffiliation">
@@ -55,7 +55,7 @@
 
         <TextView
         android:id="@+id/display_nid1"
-        android:layout_width="0dp"
+        android:layout_width="wrap_content"
         android:layout_height="24dp"
         android:layout_marginTop="90dp"
         android:layout_marginEnd="59dp"
@@ -103,7 +103,7 @@
 
         <TextView
             android:id="@+id/display_bloodgroup"
-            android:layout_width="0dp"
+            android:layout_width="wrap_content"
             android:layout_height="24dp"
             android:layout_marginTop="110dp"
             android:layout_marginEnd="59dp"
@@ -124,11 +124,11 @@
 
         <Spinner
             android:id="@+id/spinner2"
-            android:layout_width="wrap_content"
+            android:layout_width="382dp"
             android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
             android:layout_marginTop="250dp"
             android:layout_marginEnd="200dp"
-            android:layout_marginStart="10dp"
             android:entries="@array/array_uninersity_department"
             android:minHeight="48dp" />
 
@@ -144,7 +144,7 @@
              />
 
         <EditText
-            android:id="@+id/editTextTextPersonName7"
+            android:id="@+id/studentlevel"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="10dp"
@@ -170,16 +170,19 @@
             android:id="@+id/floatingActionButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:clickable="true"
-            android:layout_marginTop="400dp"
             android:layout_marginStart="300dp"
-            app:srcCompat="@android:drawable/ic_input_add" />
+            android:layout_marginTop="400dp"
+            android:clickable="true"
+            android:onClick="addfab0"
+            app:srcCompat="@android:drawable/ic_input_add"
+            tools:ignore="SpeakableTextPresentCheck" />
 
         <Button
             android:id="@+id/next"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Next"
+            android:onClick="phonenumber"
             android:layout_marginTop="450dp"
             android:layout_marginStart="100dp"/>
 

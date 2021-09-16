@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "904533898327",
+    "firebase_url": "https://finalprojectuniclubz-default-rtdb.firebaseio.com",
+    "project_id": "finalprojectuniclubz",
+    "storage_bucket": "finalprojectuniclubz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:904533898327:android:ce1d48ee460d4c0faedf12",
+        "android_client_info": {
+          "package_name": "com.example.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "904533898327-raivv1e5keqfkl14hm80m5g72j5dqagr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB72p_y5NVx2O8k2DAxAYerHNhxs1mJPM4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "904533898327-raivv1e5keqfkl14hm80m5g72j5dqagr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

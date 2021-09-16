@@ -52,11 +52,11 @@ public class University_Affiliation extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_university_affiliation);
 
-        messageemail = findViewById(R.id.email);
-        massagephonenumber = findViewById(R.id.phonenumber);
-        mMeassagespinner1 = findViewById(R.id.spinner1);
-        mMeassagespinner2 = findViewById(R.id.spinner2);
-        mMeassagestudentid = findViewById(R.id.StudentID);
+        messageemail =          findViewById(R.id.email);
+        massagephonenumber =    findViewById(R.id.phonenumber);
+        mMeassagespinner1 =     findViewById(R.id.spinner1);
+        mMeassagespinner2 =     findViewById(R.id.spinner2);
+        mMeassagestudentid =    findViewById(R.id.StudentID);
         mMeassagestudentlevel = findViewById(R.id.StudentLevel);
 
         Intent intent = getIntent();
@@ -66,12 +66,12 @@ public class University_Affiliation extends AppCompatActivity {
         textView.setText(message);
 
 
-        
+        message1 = intent.getStringExtra(MainActivity.EXTRA_DOB);
         TextView textView1 = findViewById(R.id.display_dob1);
         textView1.setText(message1);
 
         message2 = intent.getStringExtra(MainActivity.EXTRA_NIDNUMBER);
-        TextView textView2 = findViewById(R.id.display_nEid1);
+        TextView textView2 = findViewById(R.id.display_nid1);
         textView2.setText(message2);
 
         message3 = intent.getStringExtra(MainActivity.EXTRA_BG);
@@ -101,6 +101,7 @@ public class University_Affiliation extends AppCompatActivity {
         intent.putExtra(EXTRA_EMAIL, message8);
         String message9 = massagephonenumber.getText().toString();
         intent.putExtra(EXTRA_PHONENUMBER, message9);
+
         startActivity(intent);
     }
 

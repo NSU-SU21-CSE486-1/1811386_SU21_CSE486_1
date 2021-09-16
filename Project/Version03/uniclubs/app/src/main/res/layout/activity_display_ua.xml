@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".displayUA">
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="26dp"
+        android:text="University Affiliation"
+        android:textAlignment="center"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/displaystudentuniversity"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/displaystudentuniversity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="99dp"
+        android:layout_marginBottom="104dp"
+        app:layout_constraintBottom_toBottomOf="@+id/displayemail"
+        app:layout_constraintEnd_toStartOf="@+id/displaystudnetID"
+        app:layout_constraintStart_toStartOf="@+id/displaystudnetID"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/displaystudentdepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="29dp"
+        app:layout_constraintEnd_toEndOf="@+id/displaystudentdepartment1"
+        app:layout_constraintStart_toEndOf="@+id/displaystudentdepartment1"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudentlevel" />
+
+    <TextView
+        android:id="@+id/displaystudnetID"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="147dp"
+        app:layout_constraintEnd_toStartOf="@+id/displayemail"
+        app:layout_constraintStart_toStartOf="@+id/displayemail"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/displaystudentlevel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        app:layout_constraintEnd_toStartOf="@+id/displaystudentdepartment"
+        app:layout_constraintStart_toStartOf="@+id/displaystudentdepartment"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <TextView
+        android:id="@+id/displayemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudnetID" />
+
+    <TextView
+        android:id="@+id/displaystudentuniversity1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="33dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displayemail" />
+
+    <TextView
+        android:id="@+id/displaystudentdepartment1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="142dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudentdepartment" />
+
+    <TextView
+        android:id="@+id/displaystudnetID1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudentuniversity1" />
+
+    <TextView
+        android:id="@+id/displaystudentlevel1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/displaystudentdepartment1"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudentdepartment1" />
+
+    <TextView
+        android:id="@+id/display_email1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudnetID1" />
+
+    <TextView
+        android:id="@+id/displaystudentuniversity2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/display_email1" />
+
+    <TextView
+        android:id="@+id/displaystudentdepartment2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/displaystudentlevel1"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudentlevel1" />
+
+    <TextView
+        android:id="@+id/displaystudnetID2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="34dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudentuniversity2" />
+
+    <TextView
+        android:id="@+id/displaystudentlevel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/displaystudentdepartment2"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudentdepartment2" />
+
+    <TextView
+        android:id="@+id/display_email2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudnetID2" />
+
+    <TextView
+        android:id="@+id/displaystudentuniversity3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginBottom="32dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/display_email3"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/displaystudentdepartment3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/displaystudentlevel2"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudentlevel2" />
+
+    <TextView
+        android:id="@+id/displaystudnetID13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/displaystudentlevel3"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudentlevel3" />
+
+    <TextView
+        android:id="@+id/displaystudentlevel3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="33dp"
+        android:text="TextView"
+        app:layout_constraintStart_toStartOf="@+id/displaystudentdepartment3"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudentdepartment3" />
+
+    <TextView
+        android:id="@+id/display_email3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginBottom="83dp"
+        android:text="TextView"
+        app:layout_constraintBottom_toBottomOf="@+id/submit_display"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/displaystudnetID13" />
+
+
+    <Button
+        android:id="@+id/submit_display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginBottom="16dp"
+        android:text="next"
+        android:onClick="gotodisplayphonenumbers"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
