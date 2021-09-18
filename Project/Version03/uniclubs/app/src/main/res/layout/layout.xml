@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <EditText
+        android:id="@+id/home1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Home or Office"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/number1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toTopOf="@+id/home2"
+        app:layout_constraintEnd_toEndOf="@+id/home1" />
+
+    <EditText
+        android:id="@+id/home2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/number2"
+        app:layout_constraintStart_toStartOf="@+id/number1" />
+
+    <EditText
+        android:id="@+id/number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/home3"
+        app:layout_constraintStart_toStartOf="@+id/home2" />
+
+    <EditText
+        android:id="@+id/home3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Home or Office"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/number3"
+        app:layout_constraintStart_toStartOf="@+id/number2" />
+
+    <EditText
+        android:id="@+id/number3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/home4"
+        app:layout_constraintStart_toStartOf="@+id/home3" />
+
+    <EditText
+        android:id="@+id/home4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Home or Office"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/number4"
+        app:layout_constraintStart_toStartOf="@+id/number3" />
+
+    <EditText
+        android:id="@+id/number4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"
+        android:ems="10"
+        android:hint="Home or Office"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Submit"
+        app:layout_constraintStart_toStartOf="@+id/home4" />
+
+    <Button
+        android:id="@+id/Submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:onClick="gotoformsubmit"
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

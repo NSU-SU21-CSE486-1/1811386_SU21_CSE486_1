@@ -2,58 +2,67 @@ package com.example.myapplication;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.TextUtils;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
+import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+
 public class sign_up extends AppCompatActivity {
-    public static final String EXTRA_NAME =
-            "com.example.sign_up.extra.NAME";
-
-    public static final String EXTRA_DOB =
-            "com.example.sign_up.extra.DOB";
-
-    public static final String EXTRA_NIDNUMBER =
-            "com.example.sign_up.extra.NIDNUMBER";
-
-    public static final String EXTRA_BG =
-            "com.example.sign_up.extra.BG";
-
-    private static final String LOG_TAG =
-            sign_up.class.getSimpleName();
-
-    private EditText editname;
-    private EditText editdob;
-    private EditText editnidnumber;
-    private EditText editbg;
-
-    @Override
+    private EditText edituseremail;
+    private EditText edituserpassword;
+FirebaseAuth auth;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sign_up);
-        Intent intent = getIntent();
-        editname = findViewById(R.id.name);
-        editdob = findViewById(R.id.dataofbirth);
-        editnidnumber = findViewById(R.id.NID);
-        editbg = findViewById(R.id.bloodgroup);
+        edituseremail= findViewById(R.id.useremail);
+        edituserpassword= findViewById(R.id.Password);
+        auth= FirebaseAuth.getInstance();
+
     }
 
-    public void launchuni(View view) {
-        Intent intent = new Intent(this, UniversityAffiliation.class);
 
-        String message = editname.getText().toString();
-        intent.putExtra(EXTRA_NAME, message);
 
-        String message1 = editdob.getText().toString();
-        intent.putExtra(EXTRA_DOB, message1);
+    public void gotobasicscreen(View view) {
 
-        String message2 = editnidnumber.getText().toString();
-        intent.putExtra(EXTRA_NIDNUMBER, message2);
+        Intent intent = new Intent(this, basic.class);
 
-        String message3 = editbg.getText().toString();
-        intent.putExtra(EXTRA_BG, message3);
+        String messagemail = edituseremail.getText().toString();
+        String messagepassword = edituserpassword.getText().toString();
 
+        if ( TextUtils.isEmpty(messagemail) || TextUtils.isEmpty(messagepassword)){
+            Toast.makeText(sign_up.this, "Empty credentials!", Toast.LENGTH_SHORT).show();
+        } else if (messagepassword.length() < 6){
+            Toast.makeText(sign_up.this, "Password too short!", Toast.LENGTH_SHORT).show();
+        } else {
+            registerUser(messagemail , messagepassword);
+        }
         startActivity(intent);
     }
+
+    private void registerUser(String messagemail, String messagepassword) {
+        auth.createUserWithEmailAndPassword(messagemail,messagepassword).addOnCompleteListener(sign_up.this, new OnCompleteListener<AuthResult>() {
+
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+if(task.isSuccessful()){
+    Toast.makeText(sign_up.this,"added to firebase",Toast.LENGTH_SHORT).show();
+
+}
+else {
+    Toast.makeText(sign_up.this,"you messed up",Toast.LENGTH_SHORT).show();
+}
+            }
+        });
+
+    }
+
+
 }

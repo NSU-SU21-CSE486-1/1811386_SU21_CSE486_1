@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyApplication">
         <activity
+            android:name=".newsfeed"
+            android:exported="true" />
+        <activity
+            android:name=".basic"
+            android:exported="true" />
+        <activity
             android:name=".display_phonenumber"
             android:exported="true" />
         <activity

@@ -8,11 +8,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
-/**
- * A simple {@link Fragment} subclass.
- * Use the {@link Uniaff2#newInstance} factory method to
- * create an instance of this fragment.
- */
 public class Uniaff2 extends Fragment {
 
     // TODO: Rename parameter arguments, choose names that match
@@ -28,15 +23,6 @@ public class Uniaff2 extends Fragment {
         // Required empty public constructor
     }
 
-    /**
-     * Use this factory method to create a new instance of
-     * this fragment using the provided parameters.
-     *
-     * @param param1 Parameter 1.
-     * @param param2 Parameter 2.
-     * @return A new instance of fragment Univsersityaff2.
-     */
-    // TODO: Rename and change types and number of parameters
     public static Uniaff2 newInstance(String param1, String param2) {
         Uniaff2 fragment = new Uniaff2();
         Bundle args = new Bundle();

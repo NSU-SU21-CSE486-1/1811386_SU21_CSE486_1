@@ -5,114 +5,103 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".display_phonenumber">
+
     <TextView
-        android:id="@+id/textView20"
-        android:layout_width="366dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="16dp"
-        android:text="Basic Informtion"
+        android:id="@+id/phonenumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="57dp"
+        android:layout_marginBottom="52dp"
+        android:text="Phone Number"
         android:textAlignment="center"
         android:textSize="34sp"
+        app:layout_constraintBottom_toTopOf="@+id/display_number1"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/display_name"
+        android:id="@+id/display_home1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/dispaly_bod"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="158dp" />
-
-    <TextView
-        android:id="@+id/dispaly_bod"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
-        android:layout_marginEnd="124dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/display_nid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="56dp"
-        android:text="TextView"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/display_name" />
-
-    <TextView
-        android:id="@+id/display_bg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="124dp"
-        android:text="display_bg"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dispaly_bod" />
-    <TextView
-        android:id="@+id/textView20"
-        android:layout_width="366dp"
-        android:layout_height="49dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="84dp"
-        android:layout_marginEnd="16dp"
-        android:text="Basic Informtion"
-        android:textAlignment="center"
-        android:textSize="34sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="158dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
-        android:id="@+id/display_name"
+        android:id="@+id/display_number1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="159dp"
+        app:layout_constraintStart_toStartOf="@+id/display_number2"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/display_home2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="66dp"
+        app:layout_constraintEnd_toStartOf="@+id/display_home3"
+        app:layout_constraintStart_toStartOf="@+id/display_home3"
+        app:layout_constraintTop_toBottomOf="@+id/display_home1" />
+
+    <TextView
+        android:id="@+id/display_number2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="65dp"
+        app:layout_constraintEnd_toStartOf="@+id/display_number3"
+        app:layout_constraintStart_toStartOf="@+id/display_number3"
+        app:layout_constraintTop_toBottomOf="@+id/display_number1" />
+
+    <TextView
+        android:id="@+id/display_home3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toStartOf="@+id/dispaly_bod"
-        app:layout_constraintHorizontal_bias="0.0"
+        android:layout_marginTop="36dp"
         app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="158dp" />
+        app:layout_constraintTop_toBottomOf="@+id/display_home2" />
 
     <TextView
-        android:id="@+id/dispaly_bod"
+        android:id="@+id/display_number3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="148dp"
-        android:layout_marginEnd="124dp"
-        android:text="TextView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:layout_marginTop="37dp"
+        app:layout_constraintEnd_toStartOf="@+id/display_number4"
+        app:layout_constraintStart_toStartOf="@+id/display_number4"
+        app:layout_constraintTop_toBottomOf="@+id/display_number2" />
 
     <TextView
-        android:id="@+id/display_nid"
+        android:id="@+id/display_home4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="24dp"
-        android:layout_marginTop="56dp"
-        android:text="TextView"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="42dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/display_name" />
+        app:layout_constraintTop_toBottomOf="@+id/display_home3" />
 
     <TextView
-        android:id="@+id/display_bg"
+        android:id="@+id/display_number4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="68dp"
-        android:layout_marginEnd="124dp"
-        android:text="display_bg"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="148dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/dispaly_bod" />
+        app:layout_constraintTop_toBottomOf="@+id/display_number3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="192dp"
+        android:layout_marginBottom="192dp"
+        android:text="Done"
+        android:onClick="gotonewsfeed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/display_number3" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

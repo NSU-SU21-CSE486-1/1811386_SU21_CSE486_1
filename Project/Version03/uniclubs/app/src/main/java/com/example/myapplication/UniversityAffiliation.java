@@ -34,6 +34,10 @@ public class UniversityAffiliation extends AppCompatActivity {
             "com.example.UniversityAffiliation.extra.BG";
     public static final String EXTRA_EMAIL =
             "com.example.UniversityAffiliation.extra.EMAIL";
+
+    public static final String EXTRA_PASSWORD =
+            "com.example.UniversityAffiliation.extra.password";
+
     private static final String LOG_TAG =
             UniversityAffiliation.class.getSimpleName();
 
@@ -50,25 +54,25 @@ public class UniversityAffiliation extends AppCompatActivity {
 
         editemail =          findViewById(R.id.email);
         editspinner1 =     findViewById(R.id.spinner1);
-       editspinner2 =     findViewById(R.id.spinner2);
+        editspinner2 =     findViewById(R.id.spinner2);
         editstudentid =    findViewById(R.id.StudentID);
         editstudentlevel = findViewById(R.id.studentlevel);
 
         Intent intent = getIntent();
-        message = intent.getStringExtra(sign_up.EXTRA_NAME);
+        message = intent.getStringExtra(basic.EXTRA_NAME);
         TextView textView = findViewById(R.id.display_name1);
         textView.setText(message);
 
 
-        message1 = intent.getStringExtra(sign_up.EXTRA_DOB);
+        message1 = intent.getStringExtra(basic.EXTRA_DOB);
         TextView textView1 = findViewById(R.id.display_dob1);
         textView1.setText(message1);
 
-        message2 = intent.getStringExtra(sign_up.EXTRA_NIDNUMBER);
+        message2 = intent.getStringExtra(basic.EXTRA_NIDNUMBER);
         TextView textView2 = findViewById(R.id.display_nid1);
         textView2.setText(message2);
 
-        message3 = intent.getStringExtra(sign_up.EXTRA_BG);
+        message3 = intent.getStringExtra(basic.EXTRA_BG);
         TextView textView3 = findViewById(R.id.display_bloodgroup);
         textView3.setText(message3);
     }
@@ -103,7 +107,7 @@ public class UniversityAffiliation extends AppCompatActivity {
         intent.putExtra(EXTRA_NIDNUMBER, message2);
         intent.putExtra(EXTRA_BG, message3);
 
-       String message4 = editspinner1.getSelectedItem().toString();
+        String message4 = editspinner1.getSelectedItem().toString();
         intent.putExtra(EXTRA_Spinner1, message4);
 
         String message5 =editspinner2.getSelectedItem().toString();

@@ -6,60 +6,40 @@
     android:layout_height="match_parent"
     tools:context=".sign_up">
 
+
     <EditText
-        android:id="@+id/name"
+        android:id="@+id/useremail"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="71dp"
+        android:layout_marginTop="141dp"
+        android:layout_marginBottom="143dp"
         android:ems="10"
-        android:hint="Name"
+        android:hint="Email"
         android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="@+id/Password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
-
     <EditText
-        android:id="@+id/dataofbirth"
+        android:id="@+id/Password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="47dp"
+        android:layout_marginTop="284dp"
         android:ems="10"
-        android:hint="Data Of Birth"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/name"
-        app:layout_constraintTop_toBottomOf="@+id/name" />
-
-    <EditText
-        android:id="@+id/NID"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="42dp"
-        android:ems="10"
-        android:hint="Nid"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/dataofbirth"
-        app:layout_constraintTop_toBottomOf="@+id/dataofbirth" />
-
-    <EditText
-        android:id="@+id/bloodgroup"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="48dp"
-        android:ems="10"
-        android:hint="Blood Group"
-        android:inputType="textPersonName"
-        app:layout_constraintStart_toStartOf="@+id/NID"
-        app:layout_constraintTop_toBottomOf="@+id/NID" />
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="144dp"
-        android:layout_marginBottom="178dp"
-        android:text="University Affiliation "
-        android:onClick="launchuni"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        android:layout_marginTop="84dp"
+        android:onClick="gotobasicscreen"
+        android:text="Next"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Password" />
 </androidx.constraintlayout.widget.ConstraintLayout>

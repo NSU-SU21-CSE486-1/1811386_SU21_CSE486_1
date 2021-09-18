@@ -6,119 +6,109 @@
     android:layout_height="match_parent"
     tools:context=".phonenumber">
 
-    <EditText
-        android:id="@+id/editTextTextPersonName3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="Home or Office"
-
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName9"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName9" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/home1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:ems="10"
-        android:hint="Number"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName6"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName6" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="Home or Office"
-
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName5"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName5" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:autofillHints=""
-        android:ems="10"
-        android:hint="Number"
-        android:inputType="textPersonName"
-        android:minHeight="48dp"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName10"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName10" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="Home or Office"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName8"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName8" />
+        app:layout_constraintBottom_toTopOf="@+id/number1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName8"
+        android:id="@+id/number1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="Number"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName4"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName4" />
+        app:layout_constraintBottom_toTopOf="@+id/home2"
+        app:layout_constraintEnd_toEndOf="@+id/home1" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName9"
+        android:id="@+id/home2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:autofillHints=""
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="Number"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
-        app:layout_constraintStart_toStartOf="@+id/editTextTextPersonName2"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName2" />
+        app:layout_constraintBottom_toTopOf="@+id/number2"
+        app:layout_constraintStart_toStartOf="@+id/number1" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName10"
+        android:id="@+id/number2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="100dp"
-        android:layout_marginTop="52dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/home3"
+        app:layout_constraintStart_toStartOf="@+id/home2" />
+
+    <EditText
+        android:id="@+id/home3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
         android:ems="10"
         android:hint="Home or Office"
         android:inputType="textPersonName"
-        android:minHeight="48dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintBottom_toTopOf="@+id/number3"
+        app:layout_constraintStart_toStartOf="@+id/number2" />
+
+    <EditText
+        android:id="@+id/number3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Number"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/home4"
+        app:layout_constraintStart_toStartOf="@+id/home3" />
+
+    <EditText
+        android:id="@+id/home4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:ems="10"
+        android:hint="Home or Office"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/number4"
+        app:layout_constraintStart_toStartOf="@+id/number3" />
+
+    <EditText
+        android:id="@+id/number4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"
+        android:ems="10"
+        android:hint="Home or Office"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/Submit"
+        app:layout_constraintStart_toStartOf="@+id/home4" />
 
     <Button
         android:id="@+id/Submit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Submit"
+        android:layout_marginBottom="80dp"
         android:onClick="gotoformsubmit"
-        tools:layout_editor_absoluteX="155dp"
-        tools:layout_editor_absoluteY="590dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
+        android:text="Submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
